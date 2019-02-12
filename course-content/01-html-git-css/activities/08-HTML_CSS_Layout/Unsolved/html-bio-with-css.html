@@ -9,8 +9,31 @@
 </head>
 
 <body>
+
+<style>
+
+  h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+  * {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%; 
+  padding: 50px; 
+}
+
+
+</style>
+
+
   <header>
-    <h1>Student Bio</h1>
+    <h1 class="box">Student Bio</h1>
   </header>
 
   <div>
@@ -19,12 +42,12 @@
 
       <h2>Your Name</h2>
 
-      <img src="https://placehold.it/200x200" alt="Your Name">
+      <img class="box" src="https://placehold.it/200x200" alt="Your Name">
 
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      <p class="box">Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
     </section>
 
-    <section>
+    <section class="box">
       <h2>Contact Info</h2>
       <ul>
         <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
@@ -34,6 +57,8 @@
     </section>
   </div>
 
+
 </body>
+
 
 </html>
