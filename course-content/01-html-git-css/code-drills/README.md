@@ -56,5 +56,5 @@
 
 | :hash: | Type | Title | Topics|
 | :-- | :-- | :-- |:-- | 
-| 1. |  :rocket: | [Sticky Footer](./01-optional-code-drills/01-core-Google-Fu) | **CSS** Floats | 
+| 1. |  :rocket: | [Sticky Footer](./01-optional-code-drills/01-rock-sticky-footer) | **CSS** Floats | 
 

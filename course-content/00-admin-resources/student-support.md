@@ -18,6 +18,34 @@ Class Video Link: [Video Link](https://codingbootcamp.hosted.panopto.com/Panopto
 
 
 
+#### Tutoring
+[Back to top](#student-support)
+
+Tutoring Sessions will be made available to you if needed.
+
+These sessions require that you have turned in homework and are in good standing with your attendance.
+
+**How the system works:**
+
+1) If you are interested in tutoring, you can find a chat window within BootcampSpot to request a tutor. You must also meet the attendance and homework requirements ( No more than 4 missed classes and no more than 2 missed homework assignments)
+
+2) Once you have communicated your desire for a tutor through BootcampSpot the Student will receive an email with their assigned tutor 24-48 hours.Student will need to schedule their first session 24-48 hours after receiving email. 
+
+Steps: 
+
+**Step ONE** Log into BCS, on the main page click the support button on the nav bar.
+
+ <div style="text-align:center"><img src="assets/images/tutoring/tutor-step-01.jpg" alt="icon" width="400"></div>
+
+**Step TWO** From the drop down choose “I am a student” and “Tutor Request”. In the text box include topics you’d like support with along with your Github username. 
+
+  <div style="text-align:center"><img src="assets/images/tutoring/tutor-step-02.jpg" alt="icon" width="400"></div>
+
+**Step THREE** You will receive an email from Central Supports within 24-48 hours connecting you to your assigned tutor!
+
+
+
+
 #### Tutoring Details
 [Back to top](#student-support)
 
