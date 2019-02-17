@@ -44,8 +44,8 @@
 | 3. |  :gear: :triangular_flag_on_post: | [Pt. 3/4. Positioning using CSS](./00-required-code-drills/03-core-css-positioning) | **CSS** Absolute Positioning |
 | 4. | :gear: :triangular_flag_on_post: | [Pt. 4/4. Links to IDs](./00-required-code-drills/04-rock-css-anchors-and-id) | **CSS** IDs and Anchor Tags
 | 5. |  :gear: | [Chrome Inspector Tools](./00-required-code-drills/05-core-inspector-tools) | Inspector Tools|
-| 6. |  :gear: | [Fonts in CSS](./00-required-code-drills/06-core-css-font) | **CSS** Fonts | 
-| 7. |  :gear: | [Bootstrap](./00-required-code-drills/07-core-bootstrap-basics) | **CSS** Bootstrap Basics|
+| 6. |  :gear: | [Fonts in CSS](./00-required-code-drills/06-core-bootstrap-basics) | **CSS** Fonts |
+| 7. |  :gear: | [Bootstrap](./00-required-code-drills/07-proj-bootstrap) | **CSS** Bootstrap Basics|
 | 8. |  :gear: | [Media Queries 1](./00-required-code-drills/08-core-css-media-queries-1) | **CSS** Media Queries |
 | 9. |  :gear: | [Media Queries 2](./00-required-code-drills/09-core-css-media-queries-2) | **CSS** Media Queries |
 
@@ -56,7 +56,7 @@
 | :hash: | Type | Title | Topics|
 | :-- | :-- | :-- |:-- | 
 | 1. |  :gear: | [How the Dinosaurs went Extinct](./01-optional-code-drills/01-proj-meteor-drop) | **CSS** Positioning |
-| 2. | :gear: | [Pseudoclasses in CSS](./01-optional-code-drills/02-rock-css-pseudoclasses) | **CSS** Psuedo Classes 
-| 3. | :gear: | [Recreating a Bootstrap Website](./03-optional/10-proj-bootstrap) | **CSS** Bootstrap Design
+| 2. | :gear: | [CSS Font](./01-optional-code-drills/02-core-css-font) | **CSS** Psuedo Classes 
+| 3. | :gear: | [Pseudoclasses](./01-optional-code-drills/03-rock-css-pseudoclasses) | **CSS** Bootstrap Design
 | 4. | :gear: | [Bootstrap Grid](./01-optional-code-drills/04-proj-bootstrap-grid) | **CSS** Bootstrap Grid System
 
