@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My First Object</title>
+</head>
+
+<body>
+
+  <div>
+    <p id="directions-text">Type "h" to honk, "d" to drive to work, "w" to drive around the world, or "t" to get a
+      tuneup</p>
+    <p id="userchoice-text"></p>
+    <p id="computerchoice-text"></p>
+    <p id="wins-text"></p>
+    <p id="losses-text"></p>
+    <p id="ties-text"></p>
+  </div>
+
+  <script>
+
+
+    var car = {
+      make: "Honda",
+      model: "Fit",
+      color: "Blue Raspberry",
+      mileage: 3000,
+      isWorking: true,
+
+      driveToWork: function () {
+
+        alert("Old Mileage: " + this.mileage);
+
+        this.mileage = this.mileage + 8;
+
+        alert("New mileage: " + this.mileage);
+      },
+
+      driveAroundWorld: function () {
+
+        alert("Old Mileage: " + this.mileage);
+
+        this.mileage = this.mileage + 24000;
+
+        alert("New Mileage: " + this.mileage);
+        alert("Car needs a tuneup!");
+
+        this.isWorking = false;
+      },
+
+      getTuneUp: function () {
+        alert("Car is ready to go!");
+        this.isWorking = true;
+      },
+
+      honk: function () {
+        alert("Honk! Honk!");
+      }
+    };
+
+    console.log()
+
+
+
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>

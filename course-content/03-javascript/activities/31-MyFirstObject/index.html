@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Object</title>
+</head>
+
+<body>
+
+    <script>
+
+        var car = {
+            make: 'Honda',
+            model: 'Fit',
+            color: 'Blue Raspberry',
+            mileage: 3000,
+            isWorking: true,
+        };
+
+        var band = {
+            name: "Rebelution",
+            genre: "Reggae",
+            tourDateStart: "June 15, 2019",
+            tourDateFinish: "June 15, 2020",
+        }
+
+        var contact = {
+            name: "John Doe",
+            contact: 4084898831,
+            email: "jdoe@gmail.com",
+            adress: "307 Tahoe Way, Tahoe City, CA"
+        }
+
+        var person = {
+            name: ['Bob', 'Smith'],
+            age: 32,
+            gender: 'male',
+            interests: ['music', 'skiing'],
+            bio: function () {
+                alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+            },
+            greeting: function () {
+                alert('Hi! I\'m ' + this.name[0] + '.');
+            }
+        };
+
+
+
+    </script>
+
+</body>
+
+</html>

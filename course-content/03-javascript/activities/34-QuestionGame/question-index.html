@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Question Game</title>
+</head>
+
+<body>
+
+    <h1>Question Game!</h1>
+
+    <p id="score"></p>
+    <p id="question"></p>
+
+    <script>
+
+        var questions = [
+
+            { q: "Entomology is the science that studies insects.", a: "t" },
+            { q: "First Afghan War took place in 1839.", a: "t" },
+            { q: "First China War was fought between China and France.", a: "f" },
+            { q: "Each year World Red Cross and Red Crescent Day is celebrated on May 18th.", a: "f" },
+            { q: "During World War II, Germany attack France in 1940.", a: "t" },
+            { q: "July 4, 1776 is the birthday of the United States of America?", a: "t" },
+            { q: "50 states are in our country?.", a: "t" },
+            { q: "Alaska and Puerto Rico were the last two states to join the U.S.A.?.", a: "f" },
+            { q: "Liberty Enlighting the Worldi s the Statue of Liberty's official name.", a: "t" },
+            { q: "In God We Trust is our national motto.", a: "t" },
+
+        ];
+
+        var score = 0;
+        var count = 0;
+
+        function renderQuestion() {
+            if (count <= (questions.length - 1)) {
+                document.getElementById("question").innerHTML = questions[count].q;
+            }
+            else {
+                document.getElementById("question").innerHTML = "Game Over!";
+                document.getElementById("score").innerHTML = "Final Score: " + score + " out of " + questions.length;
+            }
+        }
+
+        function updateScore() {
+            document.getElementById("score").innerHTML = "Score: " + score;
+        }
+
+
+        renderQuestion();
+        updateScore();
+
+        document.onkeyup = function (event) {
+
+            if (count === questions.length) {
+                return;
+            }
+
+            var userInput = event.key.toLowerCase();
+
+            if (userInput === "t" || userInput === "f") {
+
+                if (userInput === questions[count].a) {
+                    alert("Correct!");
+                    score++;
+                    updateScore();
+                }
+                else {
+                    alert("Wrong!");
+                }
+
+                count++;
+                renderQuestion();
+
+            }
+
+        };
+
+    </script>
+
+</body>
+
+</html>
