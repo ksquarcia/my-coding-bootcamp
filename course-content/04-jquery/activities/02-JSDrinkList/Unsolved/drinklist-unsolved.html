@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JavaScript Content!</title>
 </head>
+
 <body>
 
   <h1>Drink Selection!</h1>
@@ -27,8 +29,11 @@
       "Ice Tea: $4"
     ];
 
+  
+
     // 1. Create code that "grabs" the div with the matching id (#drink-options);
-    // ...
+    var drinkDiv = Document.getElementById('drink-options');
+
 
 
     // ...
@@ -38,10 +43,23 @@
     // HINT: You will need to use each of the following methods: createElement, textContent, appendChild
     // ...
 
+    for( var i=0; i<drinkList,length;i++){
+
+      var newDrinkP = document.createElement("p")
+
+      newDrinkP.textContent = drinkList[i];
+
+      drinkDiv.appendChild(newDrinkP);
+
+    }
+
+    
+    
 
     // ...
 
   </script>
 
 </body>
+
 </html>
