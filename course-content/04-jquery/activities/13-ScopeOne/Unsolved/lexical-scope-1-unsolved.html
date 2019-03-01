@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scope</title>
+</head>
+<body>
+
+  <h2>Check console to see the madness!</h2>
+
+  <script>
+    // parent function
+    var outerFunction = function() {
+
+      var x = 5;
+
+      // local function 
+      var nestedFunction = function() {
+
+        var y = 7;
+
+        // What will this print?
+        // This will print the globle function 7
+        console.log("X: " + x);
+
+        // What will this print?
+        //this will print the local function 10
+        console.log("Y: " + y);
+
+        var z = 10;
+        th
+        console.log("Z (inside): " + z);
+      };
+
+      return nestedFunction;
+    };
+
+    var myFunction = outerFunction();
+    myFunction();
+
+    // What will this print?
+    //undefined
+    console.log("Z (outside): " + z);
+
+</script>
+
+</body>
+</html>

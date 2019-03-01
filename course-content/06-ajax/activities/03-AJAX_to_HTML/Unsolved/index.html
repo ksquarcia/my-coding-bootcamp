@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test AJAX</title>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var title = "Friends";
+        var queryURL = "https://www.omdbapi.com/?t=" + title + "&y=&plot=short&apikey=trilogy";
+        $.ajax({
+            url: queryURL,
+            method: "GET"
+        }).then(function (response) {
+            console.log(response);
+            console.log(response.Ratings[0].Value);
+
+        });
+
+        function doTheWork(thingy) {
+
+            console.log(thingy)
+        }
+
+        var x = 2;
+        var y = 10;
+        var z = 13;
+    </script>
+
+</body>
+
+</html>
